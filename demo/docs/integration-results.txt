@@ -1,0 +1,15 @@
+PASS: fresh startup OFF/25, fault disabled, HTTP settings accepted
+ok 1 - OFF baseline and available sensor
+ok 2 - internal APIs hidden from the network
+ok 3 - invalid settings rejected atomically
+ok 4 - AUTO command, separate feedback and fan inertia
+ok 5 - invalid sensor suspends regulation
+ok 6 - fresh valid sensor resumes AUTO
+ok 7 - paused sample expires despite repeated successful reads
+ok 8 - overtemperature retained with unavailable quality on sensor loss
+ok 9 - independent subscriptions and unsubscribe isolation
+ok 10 - fresh connection can resubscribe and obtain snapshot
+ok 11 - invalid fault request does not partially invalidate sensor
+1..11
+PASS: fresh startup OFF/25, fault disabled, HTTP settings accepted
+PASS: full suite, including restart reset
